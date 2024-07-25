@@ -76,6 +76,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+textarea {
+	resize: none;
+}
+
+messagebox {
+	width: 35em;
+}
+
 /* Basic */
 
 	html {
@@ -1509,13 +1517,15 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 30em;
 			margin: 0 0 3.5em 0;
 		}
 
 		.image.featured.profile {
-			width: 205%;
+			object-fit: cover;
+			width: 25em;
 		}
+
 
 		.image.left {
 			float: left;
@@ -1848,13 +1858,15 @@ input, select, textarea {
 	.box.post {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 	.box.post > header {
 		text-align: center;
 	}
 
 	.inside-bp {
+		width: 30em;
 		display: flex;
 		flex-direction: column;
 		padding: 2em;
