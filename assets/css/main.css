@@ -39,6 +39,17 @@ ol, ul {
 
 
 
+.right-align {
+	justify-self: center;
+	justify-content: center;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+centered-button {
+	margin: auto;
+}
+
 
 
 blockquote, q {
@@ -174,7 +185,7 @@ messagebox {
 		color: #666;
 	}
 
-	em, i {
+		em, i {
 		font-style: italic;
 	}
 
